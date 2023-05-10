@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MySoftwareKits - Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/ff64637a6f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="home-banner">
+        <div class="home-banner-content">
+            <div class="home-banner-text">
+                <h1>
+                    <h4>Less priced Software for you</h4>
+                    <h2 class="text-stroke">My Software Kit<br><span>provides lesser priced</span><br>software</h2>
+                    <br>
+                </h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Tortor id aliquet lectus proin nibh nisl condimentum.
+                </p>
+                <div class="home-banner-buttons">
+                    <a class="link-categories" href="">Browse Categories</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="new-bg-guarantees">
+        <section class="new-guarantees-content">
+            <section class="new-guarantees">
+                <h3>Discounted Softwares</h3>
+                <br>
+                <h2>Buy a Lesser Priced Software you choose</h2>
+                <br>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Tortor id aliquet lectus proin nibh nisl condimentum.
+                </p>
+
+                <ul>
+                    <li>
+                        <div class="icon-img" center>
+                            <i class="fa-solid fa-download"></i>
+                        </div>
+                        <span>Download Instantly</span>
+                        <p>Download it efficient and rapidly</p>
+                    </li>
+                    <li>
+                        <div class="icon-img">
+                            <i class="fa-regular fa-circle-check"></i>
+                        </div>
+                        <span>Lifetime Product Guarantee</span>
+                        <p>Buy it for once, and you will use it whenever you want</p>
+                    </li>
+                    <li>
+                        <div class="icon-img">
+                            <i class="fa-regular fa-calendar"></i>
+                        </div>
+                        <span>Year Round Service</span>
+                        <p>We will provide a service that you need</p>
+                    </li>
+                </ul>
+            </section>
+        </section>
+    </div>
+
+    <section class="best-seller">
+        <h3>
+            Best Sellers
+        </h3>
+        <p class="subtitle">All time Favorites</p>
+        <div class="grid-container">
+            <div class="grid-item">
+                <img src="sample.png" alt="Product Image" class="product-image">
+                <h3 class="product-name">Product Name</h3>
+                <p class="product-price">Product Price</p>
+                <button class="add-to-cart" type="button" title="Add to Cart">
+                    <i class="fa-solid fa-cart-plus"></i> Add to Cart
+                </button>
+            </div>
+            <div class="grid-item">
+                <img src="sample.png" alt="Product Image" class="product-image">
+                <h3 class="product-name">Product Name</h3>
+                <p class="product-price">Product Price</p>
+                <button class="add-to-cart" type="button" title="Add to Cart">
+                    <i class="fa-solid fa-cart-plus"></i> Add to Cart
+                </button>
+            </div>
+            <div class="grid-item">
+                <img src="sample.png" alt="Product Image" class="product-image">
+                <h3 class="product-name">Product Name</h3>
+                <p class="product-price">Product Price</p>
+                <button class="add-to-cart" type="button" title="Add to Cart">
+                    <i class="fa-solid fa-cart-plus"></i> Add to Cart
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <div class="tour-home">
+        <div class="tour-home-content">
+            <div class="title-home-tour">
+                <h3>Download your software in a second</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                </p>
+            </div>
+            <div class="container">
+            <ul class="list-home-tour">
+                
+                    <ul class="list-home-tour-row">
+                    <li>
+                        <div class="tex-tour"> 
+                            <p class="title-tour">
+                                <span>1</span>
+                                <strong>Lorem Lorem ipsum dolor sit amet</strong>
+                            </p>
+                            <p class="subtitle-tour">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                            </p>
+                        </div>
+
+                        <div class="tex-img" v-for="(tour, index) in tour" :key="index">
+                            <img src="sample-tour.png" alt="Tour Image" class="tour-image">
+                        </div>
+                    </li>
+
+                    <li>
+                        
+                        <div class="tex-tour"> 
+                            <p class="title-tour">
+                                <span>2</span>
+                                <strong>Lorem Lorem ipsum dolor sit amet</strong>
+                            </p>
+                            <p class="subtitle-tour">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                            </p>
+                        </div>
+                        <div class="text-img" v-for="(tour, index) in tour" :key="index">
+                            <img src="sample-tour.png" alt="Tour Image" class="tour-image">
+                        </div>
+
+                        
+                    </li>
+
+                    <li>
+                        <div class="tex-tour"> 
+                            <p class="title-tour">
+                                <span>3</span>
+                                <strong>Lorem Lorem ipsum dolor sit amet</strong>
+                            </p>
+                            <p class="subtitle-tour">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                            </p>
+                        </div>
+
+                        <div class="tex-img" v-for="(tour, index) in tour" :key="index">
+                            <img src="sample-tour.png" alt="Tour Image" class="tour-image">
+                        </div>
+                    </li>
+                </ul>
+            </ul>
+        </div>
+        </div>
+        <div class="container1">
+            <div class="title-home-tour">
+                <h3>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                </h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                </p>
+            </div>
+
+            <div class="tour-group-slide">
+                <div class="tour-provided-solution">
+                    <div class="text-info-home-tour">
+                        <div class="img-mobile">
+                            <img src="sample-bg.png" alt="">
+                        </div>
+                        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                        </p>
+                        <a href="">Get quotation</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<script>
+    export default({
+        name: 'main',
+
+        data()
+        {
+            return{
+                products: [
+                    {
+                        name: "Product 1",
+                        price: "$10.99",
+                        image: "./src/assets/sample.png",
+                    },
+                    {
+                        name: "Product 2",
+                        price: "$12.99",
+                        image: "./src/assets/sample.png",
+                    },
+                    {
+                        name: "Product 3",
+                        price: "$9.99",
+                        image: "./src/assets/sample.png",
+                    },
+                    {
+                        name: "Product 4",
+                        price: "$15.99",
+                        image: "./src/assets/sample.png",
+                    },
+                    {
+                        name: "Product 5",
+                        price: "$7.99",
+                        image: "./src/assets/sample.png",
+                    },
+                    {
+                        name: "Product 6",
+                        price: "$13.99",
+                        image: "./src/assets/sample.png",
+                    },
+                ],
+
+                tour: [
+                    {
+                        image: "./src/assets/sample-tour.png",
+                    }
+                    
+                ],
+            }
+        }
+    })
+</script>
+</body>
+</html>
+
